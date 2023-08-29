@@ -33,7 +33,7 @@ checkboxEl.addEventListener("change", function changeTheme(){
 	if(checkboxEl.checked){
 		outputContainer.classList.add("dark-theme")
 		outputBoxEls.forEach(outputBoxEl => {
-			outputBoxEl.classList.add("dark-theme")
+			outputBoxEl.classList.add("output-dark-theme")
 		paraEls.forEach(paraEl =>{
 			paraEl.classList.add("new-text-sm")
 		})
@@ -41,7 +41,7 @@ checkboxEl.addEventListener("change", function changeTheme(){
 	} else {
 		outputContainer.classList.remove("dark-theme")
 		outputBoxEls.forEach(outputBoxEl => {
-			outputBoxEl.classList.remove("dark-theme")
+			outputBoxEl.classList.remove("output-dark-theme")
 		paraEls.forEach(paraEl =>{
 			paraEl.classList.remove("new-text-sm")
 		})
