@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unit converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<main class="flex-container input-container">
+			<h2>Metric/Imperial Unit Conversion</h2>
+			<input type="number" placeholder="Type a number" id="input-el">
+			<button id="convert-btn">Convert</button>
+			<div class="color-theme-box">
+				<input type="checkbox" id="change-color-el" name="color theme" value="color theme">
+				<label for="color theme">Change color theme</label>
+			</div>
+	</main>
+
+	<section class="conversion-container">
+		<div class="output-box">
+			<h3 class="group-heading">Length (Meter / Feet)</h3>
+			<p id="length-output" class="text-sm"></p>
+		</div>
+
+		<div class="output-box">
+			<h3 class="group-heading">Volume (Litres / Gallons)</h3>
+			<p id="volume-output" class="text-sm"></p>
+		</div>
+
+		<div class="output-box">
+			<h3 class="group-heading">Mass (Kilograms / Pounds)</h3>
+			<p id="mass-output" class="text-sm"></p>
+		</div>
+	</section>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
