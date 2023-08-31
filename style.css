@@ -72,8 +72,8 @@ h2{
 }
 
 .output-dark-theme{
-	background:#4a4e69;
-	text-decoration-color: white;
+	background:#4a4e69 !important;
+	text-decoration-color: white !important;
 }
 
 .output-box{
